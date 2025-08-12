@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #1a73e8;
+}
+
+section {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #ddd;
+  background-color: #222;
+}
+
+.divisao {
+  height: 200px;
+  background-color: #222;
+}
+
+#bg-imagem{
+  background-image: url(./images/bg-1.jpg);
+  background-repeat: no-repeat; /* para não repetir a imagem*/
+  background-position: center center;
+  /* background-size: contain; coloca a imagem sem cortar ela */
+  background-size: cover; 
+}
+
+#bg-parallax{
+  background-image: url(images/bg-2.jpg);
+  background-size: cover; 
+  background-attachment: fixed; 
+  /* background-attachment: scroll; parallax é um efeito de rolamento (a imagem fica parada) */
+}
+
+#bg-gradiente{
+  background-image: linear-gradient(to right, #84e81a, #6d2f2f)
+}
+
+#bg-shorthand{
+  background: #111  url(images/bg-3.jpg) center center / cover no-repeat scroll 
+  /* da pra usar tudo em uma linha só, é só um exemplo*/
+}

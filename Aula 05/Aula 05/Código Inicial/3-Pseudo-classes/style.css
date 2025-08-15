@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: #aa44a8; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  background-color: #943892;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+a:hover {
+  background-color: #7f2d7f;
+}
+
+a:active{
+  color: rgb(201, 20, 20);
+}
+/* selecionando o primeiro filho (child) pra fazer a alteração com pseudo codigo */
+ul li:first-child{
+  font-size: 35px;
+}
+/* altera o ultimo */
+ul li:last-child{
+  font-size: 80px;
+}
+
+/* alterar o do meio */
+ul li:nth-child(2){
+  font-size: 50px;
+}

@@ -1,0 +1,67 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+/* alterando letras */
+p::first-letter{
+  font-size: 35px;
+}
+/* mudando a cor da primeira linha */
+p::first-line{
+  color:antiquewhite
+}
+
+/* ajustando a lista */
+ul {
+  list-style-position: inside;
+}
+
+li::marker{
+  color: red;
+  font-size: 30px;
+}
+
+/* estilizando a seleção do body */
+body::selection{
+  background-color: darkgoldenrod;
+}
+
+
+
+/* como adicionar elementos html peçlo css
+p::before{
+  content: "inicio";
+  color:red;
+  display: block;
+  /* position: relative; */
+/* }
+
+p::after {
+  content: "Fim";
+  color:red;
+} */
